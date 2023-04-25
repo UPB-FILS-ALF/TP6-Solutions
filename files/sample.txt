@@ -1,0 +1,7 @@
+function _functionName (int _var1=0, String _var2="alf", bool _var3=true)
+{
+    _var1 = _var2 + "2021";
+    _var4 = false;
+
+    return 3+5/7;
+};

@@ -1,0 +1,107 @@
+{
+  "id": "statements",
+  "line": 1,
+  "statements": [
+    {
+      "id": "function",
+      "line": 1,
+      "functionName": "_functionName",
+      "parameters": [
+        {
+          "id": "declaration",
+          "line": 1,
+          "variableType": "int",
+          "variable": "_var1",
+          "value": {
+            "id": "value",
+            "line": 1,
+            "value": 0
+          }
+        },
+        {
+          "id": "declaration",
+          "line": 1,
+          "variableType": "String",
+          "variable": "_var2",
+          "value": {
+            "id": "value",
+            "line": 1,
+            "value": "\"alf\""
+          }
+        },
+        {
+          "id": "declaration",
+          "line": 1,
+          "variableType": "bool",
+          "variable": "_var3",
+          "value": {
+            "id": "value",
+            "line": 1,
+            "value": "true"
+          }
+        }
+      ],
+      "lines": [
+        {
+          "id": "attribution",
+          "line": 3,
+          "variable": "_var1",
+          "value": {
+            "id": "expression",
+            "line": 3,
+            "left": {
+              "id": "value",
+              "line": 3,
+              "value": "_var2"
+            },
+            "right": {
+              "id": "value",
+              "line": 3,
+              "value": "\"2021\""
+            },
+            "op": "+"
+          }
+        },
+        {
+          "id": "attribution",
+          "line": 4,
+          "variable": "_var4",
+          "value": {
+            "id": "value",
+            "line": 4,
+            "value": "false"
+          }
+        }
+      ],
+      "returnValue": {
+        "id": "return",
+        "line": 6,
+        "value": {
+          "id": "expression",
+          "line": 6,
+          "left": {
+            "id": "value",
+            "line": 6,
+            "value": 3
+          },
+          "right": {
+            "id": "expression",
+            "line": 6,
+            "left": {
+              "id": "value",
+              "line": 6,
+              "value": 5
+            },
+            "right": {
+              "id": "value",
+              "line": 6,
+              "value": 7
+            },
+            "op": "/"
+          },
+          "op": "+"
+        }
+      }
+    }
+  ]
+}
